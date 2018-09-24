@@ -1,5 +1,6 @@
-import * as Firebase from 'firebase' ;
-let database
+import Firebase from 'firebase' ;
+let database;
+
 export const init = () => {
   let config = {
     apiKey: "AIzaSyCUGg87XXaU1q1Te11PnJOCRQSB9Dk7SeE",
