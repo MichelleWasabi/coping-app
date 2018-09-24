@@ -1,0 +1,29 @@
+//widget 
+.widget{
+    background: $darkest-blue;
+    border-radius: 3px;
+    margin-bottom: $xl-size;
+
+}
+
+//prompt 
+.widget__prompt {
+    border-bottom: 1px solid lighten($light-blue, 10%);
+    color: white;
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+}
+
+//widget header
+.widget-header {
+    background:  $off-black;
+    color: $light-blue;
+    display: flex;
+    justify-content: space-between;
+    padding: $font-medium;
+}
+
+.widget-header__title {
+    margin: 0;
+}
